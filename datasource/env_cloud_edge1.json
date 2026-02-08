@@ -1,0 +1,269 @@
+{
+  "metadata": {
+    "generated_time": "2025-11-07 23:52:02",
+    "description": "Cloud-Edge Environment for RL/DT (Super Cloud Version)"
+  },
+  "cloud_id": "cloud-super-0",
+  "edge_clusters": [
+    {
+      "id": "edge-1",
+      "latency_to_cloud_ms": 60,
+      "hosts": [
+        {
+          "id": "edge-1-h1",
+          "cpu_cores": 2,
+          "ram_mb": 4096,
+          "bw_mbps": 100
+        },
+        {
+          "id": "edge-1-h2",
+          "cpu_cores": 2,
+          "ram_mb": 4096,
+          "bw_mbps": 100
+        },
+        {
+          "id": "edge-1-h3",
+          "cpu_cores": 4,
+          "ram_mb": 16384,
+          "bw_mbps": 100
+        },
+        {
+          "id": "edge-1-h4",
+          "cpu_cores": 4,
+          "ram_mb": 16384,
+          "bw_mbps": 100
+        }
+      ]
+    },
+    {
+      "id": "edge-2",
+      "latency_to_cloud_ms": 80,
+      "hosts": [
+        {
+          "id": "edge-2-h1",
+          "cpu_cores": 2,
+          "ram_mb": 4096,
+          "bw_mbps": 100
+        },
+        {
+          "id": "edge-2-h2",
+          "cpu_cores": 2,
+          "ram_mb": 4096,
+          "bw_mbps": 100
+        },
+        {
+          "id": "edge-2-h3",
+          "cpu_cores": 4,
+          "ram_mb": 16384,
+          "bw_mbps": 100
+        },
+        {
+          "id": "edge-2-h4",
+          "cpu_cores": 4,
+          "ram_mb": 16384,
+          "bw_mbps": 100
+        }
+      ]
+    },
+    {
+      "id": "edge-3",
+      "latency_to_cloud_ms": 100,
+      "hosts": [
+        {
+          "id": "edge-3-h1",
+          "cpu_cores": 2,
+          "ram_mb": 4096,
+          "bw_mbps": 100
+        },
+        {
+          "id": "edge-3-h2",
+          "cpu_cores": 2,
+          "ram_mb": 4096,
+          "bw_mbps": 100
+        },
+        {
+          "id": "edge-3-h3",
+          "cpu_cores": 4,
+          "ram_mb": 16384,
+          "bw_mbps": 100
+        },
+        {
+          "id": "edge-3-h4",
+          "cpu_cores": 4,
+          "ram_mb": 16384,
+          "bw_mbps": 100
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "link-edge-1-h1-edge-1-h2",
+      "src": "edge-1-h1",
+      "dst": "edge-1-h2",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-1-h1-edge-1-h3",
+      "src": "edge-1-h1",
+      "dst": "edge-1-h3",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-1-h1-edge-1-h4",
+      "src": "edge-1-h1",
+      "dst": "edge-1-h4",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-1-h2-edge-1-h3",
+      "src": "edge-1-h2",
+      "dst": "edge-1-h3",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-1-h2-edge-1-h4",
+      "src": "edge-1-h2",
+      "dst": "edge-1-h4",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-1-h3-edge-1-h4",
+      "src": "edge-1-h3",
+      "dst": "edge-1-h4",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-2-h1-edge-2-h2",
+      "src": "edge-2-h1",
+      "dst": "edge-2-h2",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-2-h1-edge-2-h3",
+      "src": "edge-2-h1",
+      "dst": "edge-2-h3",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-2-h1-edge-2-h4",
+      "src": "edge-2-h1",
+      "dst": "edge-2-h4",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-2-h2-edge-2-h3",
+      "src": "edge-2-h2",
+      "dst": "edge-2-h3",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-2-h2-edge-2-h4",
+      "src": "edge-2-h2",
+      "dst": "edge-2-h4",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-2-h3-edge-2-h4",
+      "src": "edge-2-h3",
+      "dst": "edge-2-h4",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-3-h1-edge-3-h2",
+      "src": "edge-3-h1",
+      "dst": "edge-3-h2",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-3-h1-edge-3-h3",
+      "src": "edge-3-h1",
+      "dst": "edge-3-h3",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-3-h1-edge-3-h4",
+      "src": "edge-3-h1",
+      "dst": "edge-3-h4",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-3-h2-edge-3-h3",
+      "src": "edge-3-h2",
+      "dst": "edge-3-h3",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-3-h2-edge-3-h4",
+      "src": "edge-3-h2",
+      "dst": "edge-3-h4",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-3-h3-edge-3-h4",
+      "src": "edge-3-h3",
+      "dst": "edge-3-h4",
+      "bw_mbps": 100,
+      "latency_ms": 1
+    },
+    {
+      "id": "link-edge-1-edge-2",
+      "src": "edge-1",
+      "dst": "edge-2",
+      "bw_mbps": 20,
+      "latency_ms": 30
+    },
+    {
+      "id": "link-edge-1-edge-3",
+      "src": "edge-1",
+      "dst": "edge-3",
+      "bw_mbps": 20,
+      "latency_ms": 60
+    },
+    {
+      "id": "link-edge-2-edge-3",
+      "src": "edge-2",
+      "dst": "edge-3",
+      "bw_mbps": 20,
+      "latency_ms": 40
+    },
+    {
+      "id": "link-edge-1-cloud-super-0",
+      "src": "edge-1",
+      "dst": "cloud-super-0",
+      "bw_mbps": 50,
+      "latency_ms": 60
+    },
+    {
+      "id": "link-edge-2-cloud-super-0",
+      "src": "edge-2",
+      "dst": "cloud-super-0",
+      "bw_mbps": 50,
+      "latency_ms": 80
+    },
+    {
+      "id": "link-edge-3-cloud-super-0",
+      "src": "edge-3",
+      "dst": "cloud-super-0",
+      "bw_mbps": 50,
+      "latency_ms": 100
+    }
+  ]
+}
