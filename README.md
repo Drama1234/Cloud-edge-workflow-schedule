@@ -5,5 +5,8 @@ edge-cloud environment <img width="609" height="661" alt="schedule2" src="https:
 method pipline<img width="1040" height="509" alt="schedule3" src="https://github.com/user-attachments/assets/0e7e54ba-c79b-4824-988c-b006bc4c39f1" />
 
 ## Acknowledgements
-code:http://github.com/XiaofeiTJU/KaiS https://github.com/YifanYang1995/GOODRL
-dataset: https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2018
+code:
+http://github.com/XiaofeiTJU/KaiS 
+https://github.com/YifanYang1995/GOODRL
+dataset: 
+https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2018
