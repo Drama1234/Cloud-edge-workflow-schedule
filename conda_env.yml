@@ -1,0 +1,17 @@
+name: decision
+channels:
+- pytorch
+dependencies:
+- python=3.8.10
+- anaconda
+- cudatoolkit=11.8.0
+- numpy
+- pip
+- pip:
+  - gym==0.22.0
+  - mujoco-py==2.1.2.14
+  - numpy==1.24.3
+  - pytorch==2.1.2
+  - pytorch-cuda==12.1
+  - transformers==4.43.0
+  - wandb==0.19.4
